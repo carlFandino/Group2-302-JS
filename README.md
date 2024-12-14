@@ -1,3 +1,12 @@
+-- Contributors:
+- Pugahan
+- Cebrian
+- Sta Cruz (via fork)
+- Pepito
+- Manacap (via fork)
+- Fandiño
+
+
 1. Agency Portfolio Website
 Goal: Build a responsive portfolio website for a fictional professional.
 Topics Covered:

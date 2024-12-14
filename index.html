@@ -4,64 +4,125 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Agency Portfolio MAWD302 - G2</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <h6>STI College Davao</h6>
-                MAWD302 G2
+    <header class="header bg">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-sm-4 align-self-center text-left">
+                    <h6>STI College Davao</h6>
+                </div>
+                <div class="col-sm-4 col-12 align-self-center box-1 text-center">
+                    <a class="navbar-brand" href="index.html">MAWD302 G2</a>
+                </div>
+
+            </div>
         </div>
     </header>
+    <span class="position-absolute trigger"></span>
 
-
-    <div class="">
-        <h1>Welcome to MAWD302 - Group 2.</h1>
-        <h2>NEED SERVICE? THEN YOU'RE IN THE RIGHT PLACE</h2>
-        <h4>DON'T STOP WHEN YOU'RE TIRED, STOP WHEN YOU'RE DONE</h4>
-    </div>
-
-
-        <!-- SKILLS -->
-
-    <div class="skills">
-        <h3>design.</h3>
-        <p>We offer visual designing such as, website, logos, etc.</p>                        </div>
-
-
-
-        <h3>coding.</h3>
-        <p>We offer services like back-end, front-end, etc.</p>                        </div>
-
-        <h3>support.</h3>
-        <p>Need a support for your brand? Don't worry we got you covered, we offer partnerships!</p>
-    </div>
-
-
-    <div class="projects">
-        <h2>What we do <span>And why select us?</span></h2>
-        <img src="images/services-bg2.jpg">
-        <img src="images/services-bg.jpg">
+    <section class="section-1" id="about">
+        <div class="jumbotron d-flex align-items-center">
+            <div class="gradient"></div>
+            <div class="container-fluid content">
+                <h1 data-aos="fade-up" data-aos-delay="100">Welcome to MAWD302 - Group 2.</h1>
+                <h2 data-aos="fade-up" data-aos-delay="300">NEED SERVICE? THEN YOU'RE IN THE RIGHT PLACE</h2>
+                <h4 data-aos="fade-up" data-aos-delay="500">DON'T STOP WHEN YOU'RE TIRED, STOP WHEN YOU'RE DONE</h4>
+                <p data-aos="fade-up" data-aos-delay="700"><a href="#skills" class="btn btn-success">Get Started</a></p>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section-2" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 col-12 box-1">
+                    <div class="row box" data-aos="fade-left" data-aos-delay="300">
+                        <div class="col-lg-2 col-sm-12">
+                            <i class="fa fa-desktop" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-10 col-sm-12">
+                            <h3><a href="services.html">design.</a></h3>
+                            <p>We offer visual designing such as, website, logos, etc.</p>                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 box-2">
+                    <div class="row box" data-aos="fade-left" data-aos-delay="500">
+                        <div class="col-lg-2 col-sm-12">
+                            <i class="fa fa-code" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-10 col-sm-12">
+                            <h3><a href="services.html">coding.</a></h3>
+                            <p>We offer services like back-end, front-end, etc.</p>                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-12 box-3">
+                    <div class="row box" data-aos="fade-left" data-aos-delay="700">
+                        <div class="col-lg-2 col-sm-12">
+                            <i class="fa fa-comments-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-lg-10 col-sm-12">
+                            <h3><a href="services.html">support.</a></h3>
+                            <p>Need a support for your brand? Don't worry we got you covered, we offer partnerships!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section-3" id="projects">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-lg-5 col-md-12 p-0" data-aos="fade-right" data-aos-delay="300">
+                    <h2>What we do <span>And why select us?</span></h2>
+                    <ul>
+                        <li></i></li>
+                    </ul>
+                </div>
+                <div class="col-lg-7 col-md-12 p-0" data-aos="fade-left" data-aos-delay="300">
+                    <figure>
+                        <img class="inner-img" src="images/services-bg2.jpg" alt="services">
+                        <img class="out-sideimg" src="images/services-bg.jpg" alt="services">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
 
+    <!-- CONTACT -->
+    <section class="section-4" data-aos="fade-up" id="contact">
+        <div class="container">
+            <div class="row main" data-aos="fade-up" data-aos-delay="300">
+                <h1 style="text-align: center;">CONTACT</h1>
+                <div class="col-lg-6 col-sm-12 col1">
+                    <h5>CONTACT NUMBER: +639 50 097 0189</h5>
+                    <h5>You may contact these persons on Facebook: <br>
+                        <h4> - Carl Gian Dinglasan Fandiño</h4>
+                        <h4> - Calvin Dwayne Mañacap</h4>
+                        <h4> - John Carl Cebrian</h4>
+                        <h4> - Reynier Pugahan</h4>
+                        <h4> - Justine Sta Cruz</h4>
+                        <h4> - Ryan Andrie Pepito</h4>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="contact">
-        <h1 style="text-align: center;">CONTACT</h1>
-        <h5>CONTACT NUMBER: +639 50 097 0189</h5>
-        <h5>You may contact these persons on Facebook: <br>
-            <h4> - Carl Gian Dinglasan Fandiño</h4>
-            <h4> - Calvin Dwayne Mañacap</h4>
-            <h4> - John Carl Cebrian</h4>
-            <h4> - Reynier Pugahan</h4>
-            <h4> - Justine Sta Cruz</h4>
-            <h4> - Ryan Andrie Pepito</h4>
-        </h5>
-    </div>
-
-
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 </html>

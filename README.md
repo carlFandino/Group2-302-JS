@@ -1,7 +1,7 @@
 -- Contributors:
-- Pugahan
+- Pugahan (via fork)
 - Cebrian
-- Sta Cruz (via fork)
+- Sta Cruz
 - Pepito
 - Manacap (via fork)
 - Fandiño
